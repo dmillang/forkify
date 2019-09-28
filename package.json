@@ -4,7 +4,8 @@
   "description": "forkify project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/dmillang/forkify#readme",
   "devDependencies": {
-    "webpack": "^4.41.0"
+    "webpack": "^6.11.3",
+    "webpack-cli": "^6.11.3"
   },
   "dependencies": {}
 }
